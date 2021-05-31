@@ -1,0 +1,80 @@
+@font-face {
+	font-family: "Norms-ExtraBold";
+	src: url("../fonts/TTNorms-ExtraBold.eot");
+	src: local("☺"), url("../fonts/TTNorms-ExtraBold.woff") format("woff"),
+		url("../fonts/TTNorms-ExtraBold.ttf") format("truetype"), url("../fonts/TTNorms-ExtraBold.svg") format("svg");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Norms-Bold";
+	src: url("../fonts/TTNorms-Bold.eot");
+	src: local("☺"), url("../fonts/TTNorms-Bold.woff") format("woff"), url("../fonts/TTNorms-Bold.ttf") format("truetype"),
+		url("../fonts/TTNorms-Bold.svg") format("svg");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Norms-Medium";
+	src: url("../fonts/TTNorms-Medium.eot");
+	src: local("☺"), url("../fonts/TTNorms-Medium.woff") format("woff"),
+		url("../fonts/TTNorms-Medium.ttf") format("truetype"), url("../fonts/TTNorms-Medium.svg") format("svg");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Norms-Regular";
+	src: url("../fonts/TTNorms-Regular.eot");
+	src: local("☺"), url("../fonts/TTNorms-Regular.woff") format("woff"),
+		url("../fonts/TTNorms-Regular.ttf") format("truetype"), url("../fonts/TTNorms-Regular.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+/* Ненужные шрифты */
+@font-face {
+	font-family: "Norms-Black";
+	src: url("../fonts/TTNorms-Black.eot");
+	src: local("☺"), url("../fonts/TTNorms-Black.woff") format("woff"),
+		url("../fonts/TTNorms-Black.ttf") format("truetype"), url("../fonts/TTNorms-Black.svg") format("svg");
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Norms-ExtraLight";
+	src: url("../fonts/TTNorms-ExtraLight.eot");
+	src: local("☺"), url("../fonts/TTNorms-ExtraLight.woff") format("woff"),
+		url("../fonts/TTNorms-ExtraLight.ttf") format("truetype"), url("../fonts/TTNorms-ExtraLight.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Norms-Heavy";
+	src: url("../fonts/TTNorms-Heavy.eot");
+	src: local("☺"), url("../fonts/TTNorms-Heavy.woff") format("woff"),
+		url("../fonts/TTNorms-Heavy.ttf") format("truetype"), url("../fonts/TTNorms-Heavy.svg") format("svg");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Norms-Light";
+	src: url("../fonts/TTNorms-Light.eot");
+	src: local("☺"), url("../fonts/TTNorms-Light.woff") format("woff"),
+		url("../fonts/TTNorms-Light.ttf") format("truetype"), url("../fonts/TTNorms-Light.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Norms-Thin";
+	src: url("../fonts/TTNorms-Thin.eot");
+	src: local("☺"), url("../fonts/TTNorms-Thin.woff") format("woff"), url("../fonts/TTNorms-Thin.ttf") format("truetype"),
+		url("../fonts/TTNorms-Thin.svg") format("svg");
+	font-weight: 100;
+	font-style: normal;
+}

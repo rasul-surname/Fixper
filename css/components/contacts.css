@@ -1,0 +1,75 @@
+.contacts {
+	padding-top: 100px;
+}
+.contacts__title-none {
+	display: none;
+}
+.contacts__body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.contacts__map {
+	margin-right: 70px;
+	transform: translate(-150%, 0px);
+	-webkit-transition: all 0.8s ease 0s;
+	-moz-transition: all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+	transition: all 0.8s ease 0s;
+}
+.contacts__map._active {
+	transform: translate(0px, 0px);
+}
+.contacts__text {
+	transform: translate(150%, 0px);
+	-webkit-transition: all 0.8s ease 0s;
+	-moz-transition: all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+	transition: all 0.8s ease 0s;
+}
+.contacts__text._active {
+	transform: translate(0px, 0px);
+}
+.contacts__title {
+	font-family: "Norms-Bold", sans-serif;
+	font-size: 40px;
+	line-height: 100%;
+	letter-spacing: -0.015em;
+	color: #000000;
+	margin-bottom: 50px;
+}
+.contacts__street {
+	font-family: "Norms-Bold", sans-serif;
+	font-size: 18px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+.contacts__graph {
+	font-family: "Norms-Regular", sans-serif;
+	font-size: 16px;
+	color: #000000;
+	margin-bottom: 35px;
+}
+.contacts__mail {
+	font-family: "Norms-Medium", sans-serif;
+	font-size: 18px;
+	color: #000000;
+	margin-bottom: 35px;
+}
+.contacts__button {
+	font-family: "Norms-Bold", sans-serif;
+	font-size: 16px;
+	color: #993280;
+	padding: 18px 40px;
+	border: 2px solid #993280;
+	border-radius: 15px;
+	background-color: #fff;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.contacts__button:hover {
+	background-color: #993280;
+	color: #fff;
+}
