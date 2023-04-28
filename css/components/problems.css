@@ -51,6 +51,7 @@
 	padding: 15px 29px;
 	margin-right: 15px;
 	margin-bottom: 20px;
+	cursor: pointer;
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
@@ -97,7 +98,7 @@
 }
 
 .problems__body.block {
-	left: -100%;
+	left: -200%;
 }
 .problems__body {
 	position: relative;
@@ -108,7 +109,7 @@
 .decision__body {
 	position: relative;
 	top: 0;
-	right: -100%;
+	right: -200%;
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
@@ -126,9 +127,9 @@
 	line-height: 15px;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
-
 	color: #a95094;
 	margin-bottom: 15px;
+	cursor: pointer;
 }
 .decision__title {
 	font-family: TT Norms;

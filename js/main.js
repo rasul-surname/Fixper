@@ -24,9 +24,14 @@ $(document).ready(function () {
 // Исчезающий offer
 let offer = document.querySelector('.intro__offer');
 let close = document.querySelector('.intro__offer-close');
+let open = document.querySelector('.intro__offer-click');
 
 close.addEventListener('click', function () {
-	offer.classList.add('remove');
+	offer.classList.add('close');
+});
+
+open.addEventListener('click', function () {
+	offer.classList.add('open');
 });
 
 // Вывод решения проблемы
@@ -35,15 +40,11 @@ let problemsOpen = document.querySelector('.decision__subtitle');
 let problemsBody = document.querySelector('.problems__body');
 let decisionBody = document.querySelector('.decision__body');
 
-// SLider Swiper
+// Slider Swiper
 new Swiper('.swiper-team', {
 	navigation: {
 		nextEl: '.button-next',
 		prevEl: '.button-prev'
-	},
-	pagination: {
-		el: '.swiper-pagination',
-		clickable: true
 	},
 	spaceBetween: 30,
 	speed: 800,
@@ -63,10 +64,6 @@ new Swiper('.swiper-reviews', {
 	navigation: {
 		nextEl: '.button-next',
 		prevEl: '.button-prev'
-	},
-	pagination: {
-		el: '.swiper-pagination',
-		clickable: true
 	},
 	spaceBetween: 30,
 	speed: 800,

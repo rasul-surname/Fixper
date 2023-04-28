@@ -68,6 +68,7 @@
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
+	cursor: pointer;
 }
 .contacts__button:hover {
 	background-color: #993280;

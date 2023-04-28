@@ -13,6 +13,7 @@ section {
 .btn-reset {
 	border: none;
 	border-radius: 15px;
+	cursor: pointer;
 }
 .text-yellow {
 	color: #ffc464;

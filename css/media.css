@@ -72,6 +72,7 @@
 		position: relative;
 		left: 50%;
 		transform: translateX(-50%);
+		cursor: pointer;
 	}
 	.intro__offer {
 		padding: 14px 15px;
@@ -348,9 +349,6 @@
 	}
 	.price__download {
 		margin-top: 30px;
-	}
-	.swiper-left {
-		display: none;
 	}
 	.swiper-click {
 		justify-content: center;

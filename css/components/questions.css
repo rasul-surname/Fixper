@@ -76,6 +76,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	cursor: pointer;
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
@@ -90,9 +91,10 @@
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
+	cursor: pointer;
 }
 .questions__img.active {
-	transform: rotate(45deg);
+	transform: rotate(-45deg);
 }
 .questions__question {
 	font-family: "Norms-Medium", sans-serif;

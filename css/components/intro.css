@@ -84,8 +84,12 @@
 }
 .intro__offer-close {
 	margin-right: 25px;
+	cursor: pointer;
 }
-.intro__offer.remove {
+.intro__offer.close {
+	transform: translate(-150%, 0px);
+}
+.intro__offer.open {
 	transform: translate(150%, 0px);
 }
 .intro__offer-text {
